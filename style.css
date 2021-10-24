@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.item {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    width: 40%;
+    height: auto;
+}
+
+.play {
+    color: grey;
+    font-style: italic;
+}
+
+hr {
+    width: 1250px;
+}
